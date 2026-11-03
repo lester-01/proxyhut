@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "status": "active",
+  "status": "live",
   "tags": [
     "proxy",
     "networking",
     "hardware"
   ],
-  "languages": null,
+  "languages": [],
   "public": {
     "listed": true,
     "featured": true,
     "rank": 1000,
-    "website": null
+    "website": "https://proxyhut.benlester.me"
   },
   "reviewed_at": "2026-11-03"
 }

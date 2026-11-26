@@ -28,7 +28,7 @@ Start with a free consultation, and a free trial on spare gear when it fits: an 
 
 ## About this repository
 
-This repository is the public page for the product. The hub, relay and client code is not published here.
+This repository is the GitHub home for ProxyHut. It points to the product's website, where the service, pricing and contact details live. The hub, relay and client code is not published here.
 
 ---
 

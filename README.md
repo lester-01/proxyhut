@@ -6,7 +6,7 @@
 
 ProxyHut is a proxy service I have built over several years. It gives you real residential and mobile 4G/5G/LTE IPs from hardware you control: home or office broadband, or a SIM in a modem. It is not a slot in a shared pool, and not a data center address.
 
-You install the client on a machine you keep online. ProxyHut runs the hub and the relays. Your connections, modems and SIMs stay yours, and customer traffic never passes through the hub.
+You install the client on a machine you keep online. Your connections, modems and SIMs stay yours. ProxyHut runs the control side: the hub, which handles accounts and configuration and never carries your proxy traffic, and the relays, which carry traffic only when your network cannot be reached directly.
 
 ## What you can do with it
 
@@ -18,7 +18,7 @@ You install the client on a machine you keep online. ProxyHut runs the hub and t
 ## How it works
 
 - Residential proxies use your home or office internet. Mobile proxies use 4G/5G/LTE through a SIM and a modem. Both run on the same product, with one login.
-- When your network has no public IP, traffic goes through the closest relay. On the same LAN you can connect directly.
+- Your traffic leaves through your own connection or modem. When your network has no public IP, it reaches you through the closest relay. On the same LAN you can skip the relay and connect directly. A login is always required.
 - Control per proxy: hold an IP for the session, rotate it on a schedule, or get a new IP now or from a private IP change URL. IP rotation needs a supported modem.
 - Several logins on one exit, carrier or custom DNS, and the option to switch a proxy or an account off without deleting it.
 
